@@ -28,11 +28,10 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 30px 60px;
+    width: 100%;
     background: rgba(255, 255, 255, 0.5); 
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px);
-    border-radius: 15px;
-
 }
 
 .nav .menu > ul{
@@ -121,3 +120,74 @@ body{
 }
 
 /* Home End*/
+
+
+/* Services Card Start */
+
+
+.services{
+    padding: 30px 60px;
+    display: flex;
+    background-color: white;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.card{
+    padding: 20px;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px grey;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: rgb(162, 162, 162);
+}
+
+
+.card > img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.card > h2{
+    color: var(--black);
+    padding: 10px;
+}
+
+.card .detail-card{
+    display: inline-flex;
+    text-align: center;
+    column-gap: 15px;
+}
+
+.card .detail-card > a{
+    width: 50%;
+    padding: 10px;
+    background-color: aqua;
+    text-decoration: none;
+    color: black;
+    font-weight: 300px;
+    border-radius: 15px;
+}
+
+.card .detail-card .star{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    display: inline-flex;
+    padding: 10px;
+    background-color: tomato;
+    border-radius: 15px;
+}
+
+.card .detail-card .star > h3{
+    font-size: 20px;
+}
+
+.card .detail-card .star > img{
+    width: 25px;
+    margin-left: 5px;
+}
+
+/* Services Card End */
