@@ -132,7 +132,6 @@ body {
 }
 
 .title {
-    font-size: 50px;
     color: black;
     text-align: justify;
     margin-bottom: 20px;
@@ -154,10 +153,11 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     scroll-snap-align: none;
     margin-inline: 20px;
+    max-height: auto;
 
 }
 ::-webkit-scrollbar{
-    background: #e8f2ff;
+    background-color: transparent;
     width: 0%;
 }
 
