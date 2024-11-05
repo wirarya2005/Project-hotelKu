@@ -198,7 +198,12 @@ body {
 }
 
 .swiper-pagination{
-    display: none;
+    position: absolute;
+    margin-bottom: 160px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: rgb(255, 179, 2);
 }
 
 .swiper-button-next,
