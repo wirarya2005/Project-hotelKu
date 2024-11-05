@@ -137,6 +137,12 @@ body {
 
 .card-list .card-item{
     list-style: none;
+.title {
+    color: black;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
 }
 
 .card-list .card-item .card-link {
@@ -173,6 +179,20 @@ body {
     background: black;
     width: fit-content;
     border-radius: 50px;
+  
+.card {
+    flex: 0 0 30%;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    scroll-snap-align: none;
+    margin-inline: 20px;
+    max-height: auto;
+
+}
+::-webkit-scrollbar{
+    background-color: transparent;
+    width: 0%;
 }
 
 .card-list .card-link .card-title{
@@ -224,4 +244,3 @@ body {
     margin-top: 100px;
     margin-bottom: 20px;
 }
-/* Service End */
